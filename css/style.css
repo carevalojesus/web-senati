@@ -30,17 +30,39 @@ a {
     padding: 0 20px;
 }
 
-.contenedor img {
-    display: block;
-    margin: 0 auto;
-}
+/* Centrar la imagen dentro del contenedor */
+.contenedor {
+    display: flex; /* Usa flexbox para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente si hay más contenido */
+    width: 100%; /* Ocupar todo el ancho disponible */
+    margin-top: 50px; /* Ajusta la distancia desde el header */
+    margin-bottom: 90px; /* Espacio de 80px en la parte inferior */
+  }
 
-.mensaje {
-    font-weight: bold; /* Texto en negrita */
-    font-size: 30px; /* Tamaño de la letra */
-    color: blue; /* Color azul */
-    display: block;
-    margin-top: 50px; /* Aumenta la distancia entre la imagen y el texto */
-    margin-bottom: 5px; /* Espacio entre "ESTÁ EN TI" y el siguiente texto */
+/* Posición del cuadro de texto*/
+.cuadro-texto {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 55px; /* Distancia desde la parte superior */
+    right: 20px; /* Distancia desde la derecha */
+    display: flex; /* Usa flexbox */
+    flex-direction: row; /* Organiza los elementos en forma horizontal */
+    gap: 40px; /* Espacio entre las palabras */
+    padding: 10px 20px;
+    border-radius: 10px;
     text-align: center;
-}
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+  }
+  
+  footer {
+    text-align: center; /* Centra el texto */
+    padding: 5px; /* Espaciado */
+  }
+  
+  footer p {
+    color: blue; /* Texto azul */
+    font-size: 20px; /* Tamaño de letra */
+    font-weight: bold; /* Anchura de letra */
+  }
+  
