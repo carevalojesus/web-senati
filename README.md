@@ -10,4 +10,4 @@ Pagina desarrollada por los estudiantes de IV Semestre de Ingenieria de Software
 
 ### Estudiantes
 
-- Orosco Mori, Onik Abdul.
+- 
