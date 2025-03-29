@@ -25,16 +25,16 @@ a {
     align-items: center;
 }
 
-.info-header a {
+.container a {
     color: #43DEEF;
     font-size: 12px;
     font-weight: 500;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .info-header span {
     color: white;
-    padding: 0 5px;
+    padding: 0 20px;
 }
 
 /* Estilos para la barra de navegación principal */
