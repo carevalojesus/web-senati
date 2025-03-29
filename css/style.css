@@ -44,3 +44,114 @@ a {
     margin-bottom: 5px; /* Espacio entre "ESTÁ EN TI" y el siguiente texto */
     text-align: center;
 }
+.mensaje1 {
+    text-align: center;
+}
+.admision-container {  
+    font-family: Arial, sans-serif;  
+    max-width: 100%;  
+    width: 100%;  
+    background-color: white;  
+}  
+
+.search-header {  
+    background-color: #f0f0f0;  
+    padding: 15px;  
+    text-align: center;  
+}  
+
+.search-header h2 {  
+    margin: 0;  
+    color: #333;  
+    font-size: 18px;  
+}  
+
+.search-section {  
+    display: flex;  
+    padding: 15px;  
+    gap: 15px;  
+    background-color: white;  
+    border-bottom: 1px solid #e0e0e0;  
+}  
+
+.input-group {  
+    flex: 1;  
+}  
+
+.input-group label {  
+    display: block;  
+    margin-bottom: 8px;  
+    font-size: 14px;  
+    color: #666;  
+}  
+
+.input-group select {  
+    width: 100%;  
+    padding: 10px;  
+    border: 1px solid #ddd;  
+    border-radius: 4px;  
+    font-size: 14px;  
+}  
+
+.admission-details {  
+    background-color: #f0f0f0;  
+    padding: 15px;  
+    text-align: center;  
+}  
+
+.admission-badge {  
+    display: inline-block;  
+    background-color: #007bff;  
+    color: white;  
+    padding: 5px 10px;  
+    border-radius: 15px;  
+    font-size: 12px;  
+    margin-bottom: 10px;  
+}  
+
+.admission-details p {  
+    margin: 5px 0;  
+    font-size: 14px;  
+}  
+
+.deadline {  
+    font-weight: bold;  
+    color: #333;  
+}  
+
+.admission-actions {  
+    display: flex;  
+    flex-direction: column;  
+    padding: 15px;  
+    gap: 10px;  
+}  
+
+.admission-actions a {  
+    text-decoration: none;  
+    text-align: center;  
+    padding: 12px;  
+    border-radius: 4px;  
+    font-size: 14px;  
+}  
+
+.btn {  
+    background-color: #6c757d;  
+    color: white;  
+}  
+
+.btn-primary {  
+    background-color: #28a745;  
+    color: white;  
+}  
+
+.btn-secondary {  
+    background-color: #17a2b8;  
+    color: white;  
+}  
+
+.link {  
+    color: #007bff;  
+    background: none;  
+    padding: 10px;  
+    text-align: center;  
+}

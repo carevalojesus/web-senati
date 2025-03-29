@@ -1,21 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SENATI WEB - IV SEMESTRE</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header class="info-header">
-      <div class="container">
-        <a href="#">Postulantes</a>
-        <a href="#">Empresas</a>
-      </div>
-      <div class="contenedor">
-        <img src="img/banner.png" alt="Imagen Centrada">
-        <a href="#"><span class="mensaje">ESTÁ EN TI, DESAFIAR TUS PROPIOS LÍMITES</span></a>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SENATI WEB | IV SEMESTRE</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/lp.png" type="image/x-icon">
+</head>
+<body>
+  <header class="info-header">
+    <div class="container">
+      <a href="#">Postulantes</a>
+      <a href="#">Empresas</a>
     </div>
-    </header>
-  </body>
+    
+    <!-- Carrusel Bootstrap 5 (corregido) -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banner.png" class="d-block w-100" alt="Banner 1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner_web_escuela-superior-cierre6deabril.jpg" class="d-block w-100" alt="Banner 2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/bannerweb-cpt_1.jpg" class="d-block w-100" alt="Banner 3">
+        </div>
+        <div class="carousel-item">
+          <img src="img/bannerweb3-carrerasremotas-cierre06deabril.jpg" class="d-block w-100" alt="Banner 4">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <!-- Mensaje fuera del carrusel -->
+    <a href="#"><span class="mensaje">ESTÁ EN TI, DESAFIAR TUS PROPIOS LÍMITES</span></a>
+    <p class="mensaje1">Senati - 63 años brindando la mejor educación</p>
+    <div class="admision-container">  
+      <div class="search-header">  
+          <h2>Buscar carreras</h2>  
+      </div>  
+      
+      <div class="search-section">  
+          <div class="input-group">  
+              <label>¿Qué quieres estudiar?</label>  
+              <select>  
+                  <option>Selecciona una carrera</option>  
+              </select>  
+          </div>  
+          
+          <div class="input-group">  
+              <label>¿En qué sede?</label>  
+              <select>  
+                  <option>Selecciona una sede</option>  
+              </select>  
+          </div>  
+      </div>  
+      
+      <div class="admission-details">  
+          <div class="admission-badge">Admisión Online 2025-10</div>  
+          <p>Iniciamos admisiones A Nivel Nacional</p>  
+          <p class="deadline">Cierre de Inscripciones: 6 de abril</p>  
+      </div>  
+      
+      <div class="admission-actions">  
+          <a href="#" class="btn">Otras ciudades</a>  
+          <a href="#" class="link">Ver calendario de admisiones ></a>  
+          <a href="#" class="btn-primary">Obtén más información</a>  
+          <a href="#" class="btn-secondary">Postula o revisa tu postulación aquí</a>  
+      </div>  
+  </div> 
+    
+    
+  </header>
+
+  <!-- Bootstrap JS (al final del body) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
