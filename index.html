@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SENATI WEB - IV SEMESTRE</title>
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Barra superior -->
     <header class="info-header">
-      <div class="container">
-        <a href="#">Postulantes</a>
-        <a href="#">Empresas</a>
-      </div>
-      <div class="contenedor">
-        <img src="img/banner.png" alt="Imagen Centrada">
-        <a href="#"><span class="mensaje">ESTÁ EN TI, DESAFIAR TUS PROPIOS LÍMITES</span></a>
-    </div>
+        <nav class="container">
+            <a href="#">Postulantes</a>
+            <a href="#">Empresas</a>
+        </nav>
     </header>
-  </body>
+
+    <!-- Menú de navegación -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Carreras 3 años</a></li>
+            <li><a href="#">Carreras 4 años</a></li>
+            <li><a href="#">Carreras Virtuales</a></li>
+            <li><a href="#">Sedes</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner con imagen y mensaje -->
+    <div class="contenedor">
+        <img src="img/banner.png" alt="Imagen Centrada">
+        <span class="mensaje">ESTÁ EN TI, DESAFIAR TUS PROPIOS LÍMITES</span>
+    </div>
+
+    <!-- Sección inferior -->
+    <section class="bottom-section">
+        <h2>Encuentra tu carrera ideal</h2>
+        <div class="search-box">
+            <select>
+                <option value="">Selecciona tu carrera</option>
+                <option value="informatica">Informática</option>
+                <option value="mecanica">Mecánica</option>
+            </select>
+            <select>
+                <option value="">Selecciona tu sede</option>
+                <option value="lima">Lima</option>
+                <option value="arequipa">Arequipa</option>
+            </select>
+            <button class="btn-search">Buscar</button>
+        </div>
+    </section>
+</body>
 </html>

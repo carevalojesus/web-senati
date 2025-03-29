@@ -1,3 +1,4 @@
+/* Reset y fuentes */
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +6,7 @@
     font-family: Inter, Helvetica, sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
+/* Header superior */
 .info-header {
     width: 100%;
     height: 48px;
@@ -17,10 +15,11 @@ a {
 
 .container {
     width: 1024px;
-    height: 48px;
+    height: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .container a {
@@ -30,17 +29,90 @@ a {
     padding: 0 20px;
 }
 
+/* Menú de navegación */
+.main-nav {
+    background-color: #003366;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.main-nav ul li a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    transition: background 0.3s;
+}
+
+.main-nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Banner */
+.contenedor {
+    text-align: center;
+    margin-top: 10px;
+}
+
 .contenedor img {
     display: block;
     margin: 0 auto;
+    width: 100%;
+    max-width: 1024px;
 }
 
 .mensaje {
-    font-weight: bold; /* Texto en negrita */
-    font-size: 30px; /* Tamaño de la letra */
-    color: blue; /* Color azul */
+    font-weight: bold;
+    font-size: 30px;
+    color: blue;
     display: block;
-    margin-top: 50px; /* Aumenta la distancia entre la imagen y el texto */
-    margin-bottom: 5px; /* Espacio entre "ESTÁ EN TI" y el siguiente texto */
+    margin-top: 20px;
     text-align: center;
+}
+
+/* Sección inferior */
+.bottom-section {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f8f8f8;
+}
+
+.bottom-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #003366;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.search-box select {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.btn-search {
+    background-color: #ff4a57;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
 }
