@@ -225,7 +225,7 @@ a {
     font-weight: bold;
     color: white;
     background-color: #E91E63;
-    text-decoration: none; /* Quita el subrayado del enlace */
+    text-decoration: none; 
     border-radius: 5px;
     transition: background 0.3s;
 }
